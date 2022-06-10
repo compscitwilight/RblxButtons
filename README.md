@@ -2,7 +2,7 @@
 Easy to use chrome extension that allows you to create custom topbar buttons for the Roblox website.
 
 ## How to install
-To install the extension, start by downloading this repostitory. Once the repository is installed, go to the extensions page on chrome and click "Load Unpacked" and select the downloaded folder.
+To install the extension, start by downloading this repostitory. Once the repository is installed, go to the <a href="chrome://extensions/">extensions page</a> on chrome and click "Load Unpacked" and select the downloaded folder.
 
 ## How to use
 Before using this extension, make sure that you pin the extension for quick and easy use.
