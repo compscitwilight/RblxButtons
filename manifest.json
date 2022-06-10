@@ -1,0 +1,28 @@
+{
+    "name": "RblxButtons",
+    "description": "Simple Roblox extension that lets you add custom buttons to the Roblox topbar!",
+    "version": "0.1.0",
+    "manifest_version": 3,
+    "content_scripts": [
+        {
+            "matches": [
+                "https://www.roblox.com/*"
+            ],
+            "js": [
+                "extension.js"
+            ]
+        }
+    ],
+    "action": {
+        "default_popup": "/views/config.html"
+    },
+    "permissions": [
+        "storage"
+    ],
+    "icons": {
+        "16": "/assets/icons/icon16.png",
+        "32": "/assets/icons/icon32.png",
+        "48": "/assets/icons/icon48.png",
+        "128": "/assets/icons/icon128.png"
+    }
+}

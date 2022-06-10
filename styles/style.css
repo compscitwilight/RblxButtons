@@ -1,0 +1,22 @@
+* {
+    font-family: sans-serif;
+    color: white;
+}
+
+body {
+    background: #2d2d2d;
+    padding: 5px;
+}
+
+input {
+    color: black;
+}
+
+button {
+    background: #ffffff;
+    color: black;
+}
+
+button:hover {
+    background: #d0d0d0;
+}
