@@ -1,5 +1,3 @@
-console.log("Roblox extension loaded!")
-
 CreateTopbarBtn = (text, href) => {
     let topbar = document.querySelector(".nav")
     let newbtn = document.createElement("li")
@@ -19,3 +17,5 @@ chrome.storage.sync.get(["buttons"], (result) => {
         CreateTopbarBtn(button.text, button.href)
     })
 })
+
+console.log("RblxButtons loaded!")
